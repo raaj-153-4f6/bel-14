@@ -10,7 +10,7 @@ start = Date.now();
 for(let i=0; i< 104000; i++) {
     // console.log("Do more work: " + i);
 }
-console.log(`For loop completed in ${Date.now() - start} ms`);
+console.log(`1. For loop completed in ${Date.now() - start} ms`);
 
 
 
