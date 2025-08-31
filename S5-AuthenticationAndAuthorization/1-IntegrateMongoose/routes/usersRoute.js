@@ -8,7 +8,7 @@ router.post('/register', async (req, res) => {
     const dbUser = await registerUser(user);
     res.send(dbUser);
 });
-router.post('/login', async () => {
+router.post('/login', async (req, res) => {
     const {email, password} = req.body;
     const dbUser = await loginUser(email, password);
     res.send(dbUser);
